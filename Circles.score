@@ -1,5 +1,5 @@
 <score bpm="120" beatspermeasure="4">
-	<instrument instrument="Organ">
+	<instrument instrument="Organ" chorus="0.5" flange="0.1" compression="0.01" noisegate="0.2">
 		<note measure="1" beat="1" duration="4" note="E5" amplitude="0.3" drawbar="805020000" attack="0.05" decay="0.05" release="0.01" leslieRadius="0.0" leslieAttackTime="0.0" leslieFreq="0.0" vibratoFreq="5" vibratoMag="1"/>
 		<note measure="2" beat="1" duration="1" note="E5"/>
 		<note measure="2" beat="2" duration="1" note="G5"/>
