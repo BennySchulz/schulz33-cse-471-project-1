@@ -1,0 +1,18 @@
+CSE 471 Project 1
+I did this project alone
+Synthesizer & Effects - Benny Schulz
+Organ - Benny Schulz
+
+I picked the song Circles by Post Malone. Using both the melody and the bass my score file has exactly 241 notes in it.
+
+Score File Format:
+<score bpm="120" beatspermeasure="4">
+	<instrument instrument="Organ" chorus="0.5" flange="0.1" compression="0.01" noisegate="0.2">
+		<note measure="1" beat="1" duration="0.5" note="A3" amplitude="0.3" drawbar="805020000" attack="0.05" decay="0.05" release="0.01" leslieRadius="0.0" leslieAttackTime="0.0" leslieFreq="0.0" vibratoFreq="5" vibratoMag="1"/>
+		<note measure="1" beat="1.5" duration="0.5" note="A3"/>
+	</instrument>
+</score>
+
+The organ creates sound using tonewheels. The tone wheels are affected by the drawbars. The organ also uses leslie speakers, consisting of radius, attack time and frequency. It also vibrato and an envelope generation.
+This was done by calculating the the fundamental frequencies of the required notes and combining them.
+All the reqiured aspects of the organ are implemented.
